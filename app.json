@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "SafeStep",
+    "slug": "safeStep",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/crutch_icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/crutch_icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "server",
+      "favicon": "./assets/images/crutch_icon.png"
+    },
+    "plugins": [
+      ["expo-router", {"origin": "https://smart_crutch.com/"}]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
