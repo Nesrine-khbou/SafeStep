@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a0112c46-10c6-4c7f-9f29-3112b3747bbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/rides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/rides.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/find-ride.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/find-ride.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Map.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/map.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/RideCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/RideCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/type.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +71,35 @@
       <workItem from="1724958245087" duration="3849000" />
       <workItem from="1725038470934" duration="4009000" />
       <workItem from="1725043185331" duration="28000" />
-      <workItem from="1725043271873" duration="2984000" />
+      <workItem from="1725043271873" duration="3704000" />
+      <workItem from="1725102567042" duration="1274000" />
+      <workItem from="1725104025092" duration="3068000" />
+      <workItem from="1725107661687" duration="2933000" />
+      <workItem from="1725120716961" duration="9552000" />
+      <workItem from="1725190931934" duration="897000" />
+      <workItem from="1725205999715" duration="889000" />
+      <workItem from="1725210800741" duration="1468000" />
+      <workItem from="1725212303659" duration="701000" />
+      <workItem from="1725213026080" duration="1351000" />
+      <workItem from="1725224080238" duration="2109000" />
+      <workItem from="1725228307955" duration="4852000" />
+      <workItem from="1725285499235" duration="1521000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -78,6 +107,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/constants/index.ts</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/(root)/find-ride.tsx</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

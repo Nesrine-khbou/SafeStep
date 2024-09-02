@@ -98,12 +98,12 @@ declare interface PaymentProps {
 }
 
 declare interface LocationStore {
-  userLatitude: number | null;
-  userLongitude: number | null;
-  userAddress: string | null;
-  destinationLatitude: number | null;
+  origin_longitude: number | null;
+  origin_latitude: number | null;
+  origin_address: string | null;
+  coords: string | null;
   destinationLongitude: number | null;
-  destinationAddress: string | null;
+  destinacreated_attionAddress: string | null;
   setUserLocation: ({
     latitude,
     longitude,
