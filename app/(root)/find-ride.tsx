@@ -14,13 +14,12 @@ const FindRide = () => {
     created_at,
   } = route.params;
   return (
-    <RideLayout title="Location">
+    <RideLayout title="Ride">
       <Text className="text-lg font-bold mb-3">
         {" "}
         Adress name : {origin_address}{" "}
       </Text>
       <Text className="text-lg font-bold mb-3"> Coords : {coords} </Text>
-
       <Text className="text-lg font-bold mb-3">
         {" "}
         Longitude : {origin_longitude}{" "}
@@ -29,6 +28,7 @@ const FindRide = () => {
         {" "}
         Latitude : {origin_latitude}{" "}
       </Text>
+
       <Text className="text-lg font-bold mb-3"> Time : {created_at} </Text>
     </RideLayout>
   );

@@ -18,7 +18,7 @@ import { useLocationStore } from "@/store";
 import { useEffect, useState } from "react";
 import { router } from "expo-router";
 
-const recentRides = [
+const recentLocations = [
   {
     ride_id: "1",
     origin_address: "MG Maxi",
@@ -37,19 +37,20 @@ const recentRides = [
   },
   {
     ride_id: "3",
-    origin_address: "Zagreb, Croatia",
-    coords: "Rijeka, Croatia",
-    origin_latitude: "45.815011",
-    origin_longitude: "15.981919",
-    created_at: "2024-08-12 08:49:01",
+    origin_address: "Fun lac",
+    coords: "RP58+46C, Rte Bouzayyen, Sfax",
+    origin_latitude: "34.80913293107133",
+    origin_longitude: "10.715822180376756",
+    created_at: "2024-08-12 18:43:548",
   },
   {
     ride_id: "4",
-    origin_address: "Okayama, Japan",
-    coords: "Osaka, Japan",
-    origin_latitude: "34.655531",
-    origin_longitude: "133.919795",
-    created_at: "2024-08-12 18:43:548",
+    origin_address:
+      "Higher Institute of Computer Science and Multimedia of Sfax",
+    coords: "RQQ4+MVX، pôle technologique de sfax, Sakiet Ezzit 3021",
+    origin_latitude: "34.840768780396346",
+    origin_longitude: "10.757106742330993",
+    created_at: "2024-08-12 08:49:01",
   },
 ];
 
@@ -103,7 +104,7 @@ export default function Page() {
   return (
     <SafeAreaView className="bg-general-500">
       <FlatList
-        data={recentRides?.slice(0, 5)}
+        data={recentLocations?.slice(0, 5)}
         renderItem={({ item }) => <RideCard ride={item} />}
         className="px-5"
         keyboardShouldPersistTaps="handled"

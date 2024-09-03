@@ -61,9 +61,9 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
-        name="rides"
+        name="infos"
         options={{
-          title: "Rides",
+          title: "Infos",
           headerShown: false,
           tabBarIcon: ({ focused }) => (
             <TabIcon source={icons.list} focused={focused} />
@@ -71,12 +71,12 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
-        name="chat"
+        name="BatteryStatus"
         options={{
-          title: "Chat",
+          title: "BatteryStatus",
           headerShown: false,
           tabBarIcon: ({ focused }) => (
-            <TabIcon source={icons.chat} focused={focused} />
+            <TabIcon source={icons.battery} focused={focused} />
           ),
         }}
       />
