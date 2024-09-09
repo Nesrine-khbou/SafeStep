@@ -11,6 +11,7 @@ const MyBezierLineChart = ({ title, labels, dataValues, bezierValue }) => {
           fontWeight: "bold",
           fontSize: 20,
           color: "#515151",
+          marginBottom: 15,
         }}
       >
         {title}
@@ -27,8 +28,8 @@ const MyBezierLineChart = ({ title, labels, dataValues, bezierValue }) => {
         width={Dimensions.get("window").width - 16}
         height={220}
         chartConfig={{
-          backgroundGradientFrom: "#9dcbe0",
-          backgroundGradientTo: "#d2ebf7",
+          backgroundGradientFrom: "#e1f2f5",
+          backgroundGradientTo: "#e6f3f5",
           decimalPlaces: 1,
           color: (opacity = 255) => `rgba(0,0,0,${opacity})`,
         }}

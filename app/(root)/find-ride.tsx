@@ -14,7 +14,7 @@ const FindRide = () => {
     created_at,
   } = route.params;
   return (
-    <RideLayout title="Ride">
+    <RideLayout title="Location">
       <Text className="text-lg font-bold mb-3">
         {" "}
         Adress name : {origin_address}{" "}

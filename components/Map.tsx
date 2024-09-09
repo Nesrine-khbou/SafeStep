@@ -103,7 +103,7 @@ const Map = () => {
       showsUserLocation={true}
       userInterfaceStyle="light"
     >
-      {markers.map((marker) => (
+      {/*      {markers.map((marker) => (
         <Marker
           key={marker.id}
           coordinate={{
@@ -115,7 +115,7 @@ const Map = () => {
             selectedDriver === marker.id ? icons.selectedMarker : icons.marker
           }
         />
-      ))}
+      ))}*/}
     </MapView>
   );
 };

@@ -5,24 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0112c46-10c6-4c7f-9f29-3112b3747bbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(root)/(tabs)/BatteryStatus.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/(tabs)/infos.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MyBezierLineChart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MyProgressChart.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.expo/types/router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/types/router.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/chat.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/rides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BatteryStatusComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/find-ride.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/find-ride.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/splash.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Map.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/RideLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/RideLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MyBezierLineChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MyBezierLineChart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auth.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/type.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +95,8 @@
       <workItem from="1725303219055" duration="5229000" />
       <workItem from="1725315284753" duration="5653000" />
       <workItem from="1725361571364" duration="639000" />
-      <workItem from="1725380350909" duration="9806000" />
+      <workItem from="1725380350909" duration="12647000" />
+      <workItem from="1725826418951" duration="7539000" />
     </task>
     <servers />
   </component>

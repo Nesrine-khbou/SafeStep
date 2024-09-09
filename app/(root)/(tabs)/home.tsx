@@ -1,4 +1,6 @@
 import { useUser } from "@clerk/clerk-expo";
+import { useAuth } from "@clerk/clerk-expo";
+
 import * as Location from "expo-location";
 import {
   ActivityIndicator,
@@ -56,12 +58,17 @@ const recentLocations = [
 
 export default function Page() {
   const { setUserLocation, setDestinationLocation } = useLocationStore();
+  const { signOut } = useAuth();
+
   const { user } = useUser();
   const loading = true;
 
   const [hasPermission, setHasPermission] = useState(false);
 
-  const handleSignOut = () => {};
+  const handleSignOut = () => {
+    signOut();
+    router.replace("/(auth)/sign-in");
+  };
 
   const handleDestinationPress = () => {
     const location = {
