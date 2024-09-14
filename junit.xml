@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="4.863">
+  <testsuite name="CustomButton" errors="0" failures="0" skipped="0" timestamp="2024-09-12T21:22:53" time="3.171" tests="2">
+    <testcase classname="CustomButton should render &apos;Next&apos; as the button title" name="CustomButton should render &apos;Next&apos; as the button title" time="1.094">
+    </testcase>
+    <testcase classname="CustomButton should trigger the onPress function when clicked" name="CustomButton should trigger the onPress function when clicked" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="InputField components" errors="0" failures="0" skipped="0" timestamp="2024-09-12T21:22:53" time="3.203" tests="4">
+    <testcase classname="InputField components should render InputField with &apos;First name&apos; label and placeholder" name="InputField components should render InputField with &apos;First name&apos; label and placeholder" time="0.999">
+    </testcase>
+    <testcase classname="InputField components should render InputField with &apos;Last name&apos; label and placeholder" name="InputField components should render InputField with &apos;Last name&apos; label and placeholder" time="0.023">
+    </testcase>
+    <testcase classname="InputField components should render InputField with &apos;Email&apos; label and placeholder" name="InputField components should render InputField with &apos;Email&apos; label and placeholder" time="0.029">
+    </testcase>
+    <testcase classname="InputField components should render &apos;Not Found&apos; if email is missing" name="InputField components should render &apos;Not Found&apos; if email is missing" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="OnBoarding" errors="0" failures="0" skipped="0" timestamp="2024-09-12T21:22:53" time="3.215" tests="1">
+    <testcase classname="OnBoarding renders correctly" name="OnBoarding renders correctly" time="1.051">
+    </testcase>
+  </testsuite>
+  <testsuite name="Form InputFields" errors="0" failures="0" skipped="0" timestamp="2024-09-12T21:22:53" time="3.251" tests="1">
+    <testcase classname="Form InputFields renders all InputField components and handles text changes" name="Form InputFields renders all InputField components and handles text changes" time="0.971">
+    </testcase>
+  </testsuite>
+  <testsuite name="BatteryStatus" errors="0" failures="0" skipped="0" timestamp="2024-09-12T21:22:53" time="3.47" tests="1">
+    <testcase classname="BatteryStatus should pass the correct props to BatteryStatusComponent" name="BatteryStatus should pass the correct props to BatteryStatusComponent" time="0.725">
+    </testcase>
+  </testsuite>
+  <testsuite name="MyBezierLineChart" errors="0" failures="0" skipped="0" timestamp="2024-09-12T21:22:53" time="3.514" tests="1">
+    <testcase classname="MyBezierLineChart renders the chart title" name="MyBezierLineChart renders the chart title" time="0.537">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0112c46-10c6-4c7f-9f29-3112b3747bbd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(auth)/__tests__/sign-up.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/__tests__/welcome.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/__tests__/BatteryStatusComponent.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/__tests__/CustomButton.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/__tests__/InputField.test.tesx.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/__tests__/MyBezierLineChart.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.expo/types/router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/types/router.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/find-ride.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/find-ride.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Map.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MyBezierLineChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MyBezierLineChart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/infos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/infos.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MSI/Desktop/neeeeesss/iot_app/uber-clone&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\MSI\\Desktop\\neeeeesss\\iot_app\\uber-clone\\node_modules\\prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\MSI\\Desktop\\neeeeesss\\iot_app\\uber-clone\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/MSI/Desktop/neeeeesss/iot_app/uber-clone",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\MSI\\Desktop\\neeeeesss\\iot_app\\uber-clone\\node_modules\\prettier",
+    "ts.external.directory.path": "C:\\Users\\MSI\\Desktop\\neeeeesss\\iot_app\\uber-clone\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI\Desktop\neeeeesss\iot_app\uber-clone\app\(auth)" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -97,6 +104,20 @@
       <workItem from="1725361571364" duration="639000" />
       <workItem from="1725380350909" duration="12647000" />
       <workItem from="1725826418951" duration="7539000" />
+      <workItem from="1725873470001" duration="581000" />
+      <workItem from="1725877507886" duration="3492000" />
+      <workItem from="1725892382190" duration="41000" />
+      <workItem from="1725903846108" duration="273000" />
+      <workItem from="1725905990141" duration="121000" />
+      <workItem from="1725906916068" duration="5718000" />
+      <workItem from="1725964931868" duration="3800000" />
+      <workItem from="1726052705715" duration="11158000" />
+      <workItem from="1726087910109" duration="4769000" />
+      <workItem from="1726149065204" duration="4334000" />
+      <workItem from="1726156751483" duration="5278000" />
+      <workItem from="1726162655425" duration="712000" />
+      <workItem from="1726175379943" duration="2603000" />
+      <workItem from="1726317285355" duration="632000" />
     </task>
     <servers />
   </component>

@@ -56,6 +56,11 @@ const recentLocations = [
   },
 ];
 
+export const handleSignOut = () => {
+  signOut();
+  router.replace("/(auth)/sign-in");
+};
+
 export default function Page() {
   const { setUserLocation, setDestinationLocation } = useLocationStore();
   const { signOut } = useAuth();
@@ -64,11 +69,6 @@ export default function Page() {
   const loading = true;
 
   const [hasPermission, setHasPermission] = useState(false);
-
-  const handleSignOut = () => {
-    signOut();
-    router.replace("/(auth)/sign-in");
-  };
 
   const handleDestinationPress = () => {
     const location = {
@@ -128,7 +128,7 @@ export default function Page() {
                   alt="No recent rides found"
                   resizeMode="contain"
                 />
-                <Text className="text-sm"> No recent rides found</Text>
+                <Text className="text-sm"> No recent locations found</Text>
               </>
             ) : (
               <ActivityIndicator size="small" color="#000" />

@@ -8,11 +8,12 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test": "jest --watchAll",
+    "test": "jest --watchAll=false --ci --reporters=default --reporters=jest-junit",
     "lint": "expo lint"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "jest-expo",
+    "testEnvironment": "allure-jest/jsdom"
   },
   "dependencies": {
     "@clerk/clerk-expo": "^2.2.0",
@@ -35,6 +36,7 @@
     "expo-status-bar": "~1.12.1",
     "expo-system-ui": "~3.0.7",
     "expo-web-browser": "~13.0.3",
+    "jest-junit": "^16.0.0",
     "mqtt": "^5.10.1",
     "nativewind": "^2.0.11",
     "react": "^18.2.0",
@@ -57,9 +59,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@testing-library/react-native": "^12.6.1",
     "@types/jest": "^29.5.12",
     "@types/react": "~18.2.45",
     "@types/react-test-renderer": "^18.0.7",
+    "allure-commandline": "^2.30.0",
+    "allure-jest": "^3.0.0-beta.12",
     "eslint": "^8.57.0",
     "eslint-config-expo": "^7.1.2",
     "eslint-config-prettier": "^9.1.0",

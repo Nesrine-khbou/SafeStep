@@ -25,7 +25,7 @@ const Infos = () => {
           bezierValue={true}
         />
         <MyBezierLineChart
-          title="Crutch Led Activation History"
+          title="Crutch distance History"
           labels={["1PM", "2PM", "3PM", "4PM"]}
           dataValues={[
             233, 233, 150, 100, 250, 300, 100, 20, 20, 50, 80, 120, 150, 70, 90,
