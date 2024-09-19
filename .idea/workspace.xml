@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0112c46-10c6-4c7f-9f29-3112b3747bbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(auth)/__tests__/sign-up.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/__tests__/welcome.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/__tests__/BatteryStatusComponent.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/__tests__/CustomButton.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/__tests__/InputField.test.tesx.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/__tests__/MyBezierLineChart.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.expo/types/router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/types/router.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uber-clone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SafeStep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/infos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/infos.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +39,14 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/MSI/Desktop/neeeeesss/iot_app/uber-clone",
+    "last_opened_file_path": "C:/Users/MSI/Desktop/neeeeesss/iot_app/SafeSrep_clone",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\MSI\\Desktop\\neeeeesss\\iot_app\\uber-clone\\node_modules\\prettier",
-    "ts.external.directory.path": "C:\\Users\\MSI\\Desktop\\neeeeesss\\iot_app\\uber-clone\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\MSI\\Desktop\\neeeeesss\\iot_app\\SafeStep\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -118,6 +112,14 @@
       <workItem from="1726162655425" duration="712000" />
       <workItem from="1726175379943" duration="2603000" />
       <workItem from="1726317285355" duration="632000" />
+      <workItem from="1726617599808" duration="638000" />
+      <workItem from="1726619518852" duration="39000" />
+      <workItem from="1726766326065" duration="437000" />
+      <workItem from="1726766777683" duration="47000" />
+      <workItem from="1726766981272" duration="889000" />
+      <workItem from="1726767892253" duration="3000" />
+      <workItem from="1726767925472" duration="272000" />
+      <workItem from="1726768323462" duration="1953000" />
     </task>
     <servers />
   </component>

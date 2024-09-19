@@ -1,6 +1,5 @@
 import { useUser } from "@clerk/clerk-expo";
 import { useAuth } from "@clerk/clerk-expo";
-
 import * as Location from "expo-location";
 import {
   ActivityIndicator,
@@ -56,15 +55,9 @@ const recentLocations = [
   },
 ];
 
-export const handleSignOut = () => {
-  signOut();
-  router.replace("/(auth)/sign-in");
-};
-
 export default function Page() {
   const { setUserLocation, setDestinationLocation } = useLocationStore();
-  const { signOut } = useAuth();
-
+  const { signOut } = useAuth(); // Access signOut here
   const { user } = useUser();
   const loading = true;
 
@@ -79,6 +72,11 @@ export default function Page() {
     setDestinationLocation(location);
 
     router.push("/(root)/find-ride");
+  };
+
+  const handleSignOut = () => {
+    signOut(); // Use signOut here
+    router.replace("/(auth)/sign-in");
   };
 
   useEffect(() => {
@@ -145,7 +143,7 @@ export default function Page() {
                 👋
               </Text>
               <TouchableOpacity
-                onPress={handleSignOut}
+                onPress={handleSignOut} // Call handleSignOut
                 className="justify-center items-center w-10 h-10 rounded-full bg-white "
               >
                 <Image source={icons.out} className="w-4 h-4" />
