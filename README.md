@@ -98,6 +98,11 @@ In the continuous integration part, I also developed some unit tests for the mob
   <img src="./assets/images/profile.jpg" alt="Profile Screen" width="200" />
 </p>
 
+<p align="center">
+  <img src="./assets/images/jenkins.PNG" alt="Info Screen 1" width="200" />
+  <img src="./assets/images/allure.PNG" alt="Battery Screen" width="200" />
+  <img src="./assets/images/charts.PNG" alt="Profile Screen" width="200" />
+</p>
 
 
 
