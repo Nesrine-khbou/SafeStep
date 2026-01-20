@@ -105,7 +105,11 @@ In the continuous integration part, I also developed some unit tests for the mob
 </p>
 
 
-
+<p align="center">
+  <img src="./assets/images/iot1.jpg" alt="smart crutch prototype" width="200" />
+  <img src="./assets/images/iot2.jpg" alt="smart crutch prototype" width="200" />
+  <img src="./assets/images/iot3.jpg" alt="smart crutch prototype" width="200" />
+</p>
 
 
 
